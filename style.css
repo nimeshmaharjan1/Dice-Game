@@ -1,0 +1,71 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    margin-top: -5rem;
+}
+
+body {
+    background-color: #042f4b;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ecca3;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 3rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+    background: #4ecca3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+    transition: all 500ms;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.flex-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-btn button{
+    margin-top: 4rem;
+}
+
+#btn2{
+    margin-left: 2rem;
+}
